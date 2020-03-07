@@ -10,6 +10,9 @@
   <link rel="icon" type="image/png" sizes="144x144" href="https://ecs7.tokopedia.net/assets-tokopedia-lite/prod/icon144.png">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <style>
+    .dropdown{
+      cursor: pointer;
+    }
   </style>
 </head>
 <body>
@@ -35,9 +38,14 @@
 </div>
     
     
-    <form class="w-75 p-12" action="#">
-    <input class="form-control form-control-sm input-lg" type="text" placeholder="Cari">
-  </form>
+<div class="input-group">
+  <input type="text" class="form-control" placeholder="Cari">
+  <span class="input-group-btn">
+    <button class="btn btn-default" type="submit">
+      <i class="material-icons">search</i>
+    </button>
+  </span>
+</div>
     
 
     
