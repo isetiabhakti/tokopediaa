@@ -27,7 +27,13 @@
           height: 300px;
         }
       }
-
+    
+    .ul-par > div > ul{ 
+  list-style-type: none;
+}
+.ul-par > div > ul > strong{ 
+  padding-bottom:12px;
+}
   </style>
 </head>
 <body>
@@ -132,31 +138,53 @@
     </div>
   
   
-  <div class="container" style="margin-top:99px;">
+  <div class="container" style="margin-top:99px; margin-bottom:99px;">
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus nostrum tempora esse commodi ullam voluptas velit, distinctio. Unde qui non quis in aperiam eligendi veniam, id dolores. Pariatur officia hic consequatur, ratione facilis tempore quo. Voluptas nam blanditiis deserunt delectus itaque cum, amet facilis voluptatem aspernatur debitis, quos tempore doloribus esse quo necessitatibus molestiae? Commodi accusantium perspiciatis neque dolor repudiandae ducimus qui voluptatem suscipit ut laborum, quaerat tempore aliquid, mollitia natus nesciunt rem voluptatibus, rerum impedit laboriosam quod nemo repellendus vero. Incidunt, quos quisquam autem odit praesentium, quod aliquam optio nesciunt corrupti doloremque magni nostrum! Exercitationem nesciunt, ducimus facere quae?
   </div>
   
   <hr/>
   
 <div class="container-fluid">
-  <div class="row">
+  <div class="row ul-par">
 
-    <div class="col-sm-2" style="background-color:yellow;">
-      <strong><p>TopiPedia</p></strong><br/>
-      
+    <div class="col-sm-2">
+      <ul><strong>TopiPedia</strong>
+        <li class="text-secondary">Menu1</li>
+        <li class="text-secondary">Menu2</li>
+        <li class="text-secondary">Menu3</li>
+        <li class="text-secondary">Menu4</li>
+        <li class="text-secondary">Menu5</li>
+        <li class="text-secondary">Menu6</li>
+        <li class="text-secondary">Menu7</li>
+        <li class="text-secondary">Menu8</li>
+        <li class="text-secondary">Menu9</li>
+        <li class="text-secondary">Menu10</li>
+      </ul>
+    </div>
+    
+    <div class="col-sm-2">
+      <ul><strong>Beli</strong>
+        <li>Menu1</li>
+        <li>Menu2</li>
+        <li>Menu3</li>
+        <li>Menu4</li>
+        <li>Menu5</li>
+      </ul>
+
+    
+      <ul><strong>Jual</strong>
+        <li>Menu1</li>
+        <li>Menu2</li>
+        <li>Menu3</li>
+      </ul>
     </div>
     
 
-    <div class="col-sm-2" style="background-color:gold;">
+    <div class="col-sm-2">
       <p>Lorem ipsum...</p>
     </div>
     
-
-    <div class="col-sm-2" style="background-color:yellow;">
-      <p>Lorem ipsum...</p>
-    </div>
-    
-    <div class="col-sm-6" style="background-color:pink;">
+    <div class="col-sm-6">
       <p>Sed ut perspiciatis...</p>
     </div>
     
